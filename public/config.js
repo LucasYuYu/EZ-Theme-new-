@@ -26,9 +26,8 @@ window.EZ_CONFIG = {
         // 支持字符串形式(单个API地址)或数组形式(多个备选API地址)
         // 多个地址时，会按顺序检测可用性，并使用第一个可用的地址
         staticBaseUrl: [
-            'https://w5x8mu2a9943r.ezdemo.xyz/api/v1',
-            'https://skhsn6q4pnv95.ezdemo.xyz/api/v1',
-            'https://gy1v06omopzc8.ezdemo.xyz/api/v1'
+            'https://xxxx.xxxx/api/v1',
+            'https://xxxx.xxxx/api/v1'
         ],
 
         // 自动获取模式配置 (urlMode = 'auto'时使用)
@@ -46,7 +45,7 @@ window.EZ_CONFIG = {
 
     // 是否启用中间件代理API请求
     // 设置为true时，所有API请求将通过中间件转发
-    API_MIDDLEWARE_ENABLED: true,
+    API_MIDDLEWARE_ENABLED: false,
 
     // 中间件服务器URL (不含路径)
     API_MIDDLEWARE_URL: 'https://tko16g9ugx8bc.ezdemo.xyz',
